@@ -1,0 +1,543 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up",
+            "Good day",
+            "Hi there",
+            "Is anyone there?"
+        ],
+        "responses": [
+            "Hello! How can I assist you with our food services?",
+            "Hi there! Welcome to Sarla's Kitchen Delights!"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care"
+        ],
+        "responses": [
+            "Thank you for visitimg us",
+            "See you Soon",
+            "Take care"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome",
+            "No problem",
+            "Glad I could help"
+        ]
+    },
+    {
+        "tag": "about",
+        "patterns": [
+            "What can you do",
+            "Who are you",
+            "What are you",
+            "What is your purpose"
+        ],
+        "responses": [
+            "I am a chatbot,My name is Maai",
+            "My purpose is to assist you",
+            "I can answer questions and provide assistance"
+        ]
+    },
+    {
+        "tag": "help",
+        "patterns": [
+            "Help",
+            "I need help",
+            "Can you help me",
+            "What should I do"
+        ],
+        "responses": [
+            "Sure, what do you need help with?",
+            "I'm here to help. What's the problem?",
+            "How can I assist you?"
+        ]
+    },
+    {
+        "tag": "food_options",
+        "patterns": [
+            "What food options do you offer?",
+            "Can you show me your food menu?",
+            "What dishes do you have?",
+            "What food can I order?",
+            "Tell me your food options.",
+            "Show me the food menu.",
+            "What meals are available?"
+        ],
+        "responses": [
+            "We offer a variety of food options including Full Meals,Breakfast,Snacks,Drinks. You can checkout full Menu"
+        ]
+    },
+    {
+        "tag": "menu",
+        "patterns": [
+            "What's on the menu?",
+            "Show me the menu",
+            "Menu items",
+            "Full menu"
+        ],
+        "responses": [
+            "Here is our menu: \nBreakfast Options:\n1.Poha\n2.Idli Sambhar with Nariyal Chutney\n3.Masala Dosa\n4.Moong Dal Cheela stuffed with Paneer with Green Chutney\n5.Besan Cheela\n6.Dhokla\nFull Meal Options :\n1.Puri Aloo\n2.Chole Bhature\n3.Veg Thali (two vegetables, rice, salad, dahi)\nSnacks Options :\n1.Sandwich\n2.Momos\n3.Chana Chat\n4.Paav Bhaji\n5.Spring Rolls\n6.Aloo Tikki"
+            
+        ]
+    },
+    {
+        "tag": "order_food",
+        "patterns": [
+            "I want to order food",
+            "Place an order",
+            "Order food now",
+            "I want to order"
+        ],
+        "responses": [
+            "I am so happy to see your interest in ordering from Sarla's Kitchen Delights! \n\nI am Maai, a chatbot here to assist with your inquiries and provide information about our menu and services. \n\nPlease note that I cannot confirm orders, as I am  just a virtual assistant. For order confirmation or further assistance, kindly contact the owner, Sarla, directly at 123456789.\n\nThank you for choosing Sarla's Kitchen Delights, and let me know if there is anything else I can help with!"
+        ]
+    },
+    {
+        "tag": "order_advance",
+        "patterns": [
+            "Can I schedule an order?",
+            "Order food in advance",
+            "Book food for later",
+            "Pre-order"
+        ],
+        "responses": [
+            "Absolutely! Let us know your preferred time and items for the order."
+        ]
+    },
+    {
+        "tag": "contact_owner",
+        "patterns": [
+            "Contact details",
+            "Owner contact",
+            "How can I reach the owner?",
+            "Owner's phone number"
+        ],
+        "responses": [
+            "For more information, please contact the food app owner, Her name is Sarla, You can call her at 123456789."
+        ]
+    },
+    {
+        "tag": "dietary_preferences",
+        "patterns": [
+            "Do you provide vegetarian food?",
+            "Only veg food?",
+            "Diet-specific items"
+        ],
+        "responses": [
+            "Yes, we only provide vegetarian and homemade food to ensure quality and freshness."
+        ]
+    },
+    {
+        "tag": "feedback",
+        "patterns": [
+            "I want to give feedback",
+            "Food feedback",
+            "Rate the food",
+            "Provide rating"
+        ],
+        "responses": [
+            "Thank you for your feedback! Please rate our food on a scale of 1 to 5."
+        ]
+    },
+    {
+        "tag": "special_offers",
+        "patterns": [
+            "Any discounts?",
+            "Special offers",
+            "Promotions"
+        ],
+        "responses": [
+            "Check out our app for the latest offers and promotions."
+        ]
+    },
+    {
+        "tag": "bulk_orders",
+        "patterns": [
+            "Do you handle bulk orders?",
+            "Party orders",
+            "Large quantity food"
+        ],
+        "responses": [
+            "Yes, we cater to bulk orders. Please contact us for details."
+        ]
+    },
+    {
+        "tag": "homemade_food",
+        "patterns": [
+            "Is the food homemade?",
+            "Do you provide fresh homemade food?",
+            "Homemade dishes?"
+        ],
+        "responses": [
+            "Yes, all our food is freshly made at home with love and care."
+        ]
+    },
+    {
+        "tag": "thank_you",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it",
+            "Thank you so much"
+        ],
+        "responses": [
+            "You're welcome!",
+            "Happy to help! Let us know if you need anything else.",
+            "Thank you for choosing VeggieCloud Kitchen!"
+        ]
+    },
+    {
+        "tag": "food_safety_quality",
+        "patterns": [
+            "Is the food fresh?",
+            "What about food safety?",
+            "How is the quality of food ensured?",
+            "Is the food hygienic?",
+            "Food quality assurance?"
+        ],
+        "responses": [
+            "Our food is freshly prepared daily, using high-quality ingredients. Being homemade, we ensure the utmost hygiene and care in every step.",
+            "We take pride in offering homemade meals, crafted with love and attention to food safety and quality standards."
+        ]
+    },
+    {
+        "tag": "bulk_orders",
+        "patterns": [
+            "Do you handle bulk orders?",
+            "Party orders",
+            "Large quantity food"
+        ],
+        "responses": [
+            "Yes, we cater to bulk orders. Please contact us for details."
+        ]
+    },
+    {
+        "tag": "reservation",
+        "patterns": [
+            "Can I book a table?",
+            "Do you have dine-in options?",
+            "Table reservation"
+        ],
+        "responses": [
+            "We are a cloud kitchen and currently offer only delivery services."
+        ]
+    },
+    {
+        "tag": "delivery_time",
+        "patterns": [
+            "How long does delivery take?",
+            "What is the delivery time?",
+            "When will my food arrive?"
+        ],
+        "responses": [
+            "Delivery typically takes 30-45 minutes depending on your location."
+        ]
+    },
+    {
+        "tag": "delivery_fee",
+        "patterns": [
+            "Is there a delivery fee?",
+            "What are the delivery charges?",
+            "Delivery cost?"
+        ],
+        "responses": [
+            "Delivery is free for orders above 20/-. A small fee applies for smaller orders."
+        ]
+    },
+    {
+        "tag": "veg_only",
+        "patterns": [
+            "Do you provide only veg food?",
+            "Non-veg items available?",
+            "Veg or non-veg food?"
+        ],
+        "responses": [
+            "We only provide vegetarian food, freshly made at home."
+        ]
+    },
+    {
+        "tag": "Item_Price",
+        "patterns": [
+            "Price per Plate",
+            "What is price for Breakfast items",
+            "Price?"
+        ],
+        "responses": [
+            "Here is Prices Per Plate: \nBreakfast Options:\n1.Poha - 20/- \n2.Idli Sambhar with Nariyal Chutney - 30/- \n3.Masala Dosa - 30/- \n4.Moong Dal Cheela stuffed with Paneer - 30/- \n5.Besan Cheela stuffed with Paneer - 30/- \n6.Dhokla - 30/- \nFull Meal Options :\n1.Puri Aloo & Kheer - 60/- \n2.Chole Bhature - 50/- \n3.Veg Thali (two vegetables, rice, salad, dahi) - 60/-\nSnacks Options :\n1.Sandwich - 20/- \n2.Momos - 25/- \n3.Chana Chat - 20/- \n4.Paav Bhaji - 25/- \n5.Spring Rolls - 25/- \n6.Aloo Tikki - 25/-"
+        ]
+    },
+    {
+        "tag": "food_ingredients",
+        "patterns": [
+            "What ingredients do you use?",
+            "Are the ingredients fresh?",
+            "Details about ingredients"
+        ],
+        "responses": [
+            "We use fresh, high-quality, and locally sourced ingredients for all our dishes."
+        ]
+    },
+    {
+        "tag": "payment_options",
+        "patterns": [
+            "What payment methods are available?",
+            "How can I pay?",
+            "Payment options"
+        ],
+        "responses": [
+            "We accept credit/debit cards, UPI, and digital wallets."
+        ]
+    },
+    {
+        "tag": "order_tracking",
+        "patterns": [
+            "How can I track my order?",
+            "Track my order",
+            "Order tracking details"
+        ],
+        "responses": [
+            "You can track your order in real-time by contacting our owner."
+        ]
+    },
+    {
+        "tag": "order_cancellation",
+        "patterns": [
+            "Can I cancel my order?",
+            "How to cancel an order?",
+            "Order cancellation policy"
+        ],
+        "responses": [
+            "Orders can be canceled before they are prepared. Contact support for assistance."
+        ]
+    },
+    {
+        "tag": "loyalty_program",
+        "patterns": [
+            "Do you have a loyalty program?",
+            "Rewards for orders?",
+            "Loyalty points"
+        ],
+        "responses": [
+            "Yes, join our loyalty program to earn points and enjoy exclusive discounts."
+        ]
+    },
+    {
+        "tag": "popular_dishes",
+        "patterns": [
+            "What are your best dishes?",
+            "Recommended items?",
+            "Customer favorites?"
+        ],
+        "responses": [
+            "Our popular dishes are Masala Dosa, Veg Thali, and Chole Bhature."
+        ]
+    },
+    {
+        "tag": "business_hours",
+        "patterns": [
+            "What are your working hours?",
+            "Operating hours?",
+            "When are you open?"
+        ],
+        "responses": [
+            "We are open from 8 AM to 10 PM every day."
+        ]
+    },
+    {
+        "tag": "refund_policy",
+        "patterns": [
+            "What is your refund policy?",
+            "Refund for wrong order?",
+            "How do refunds work?"
+        ],
+        "responses": [
+            "Refunds are available for incorrect or unsatisfactory orders. Contact support for help."
+        ]
+    },
+    {
+        "tag": "gift_cards",
+        "patterns": [
+            "Do you offer gift cards?",
+            "Can I buy a gift card?",
+            "Gift cards available?"
+        ],
+        "responses": [
+            "Yes, you can purchase gift cards through our app."
+        ]
+    },
+    {
+        "tag": "catering_services",
+        "patterns": [
+            "Do you provide catering?",
+            "Catering services?",
+            "Can I book catering for an event?"
+        ],
+        "responses": [
+            "Yes, we offer catering services for small and large events. Contact us for more details."
+        ]
+    },
+    {
+        "tag": "special_diets",
+        "patterns": [
+            "Do you have vegan options?",
+            "Food for special diets?",
+            "Gluten-free options available?"
+        ],
+        "responses": [
+            "Yes, we offer vegan and gluten-free options. Let us know your dietary preferences."
+        ]
+    },
+    {
+        "tag": "order_status",
+        "patterns": [
+            "Is my order confirmed?",
+            "Order status?",
+            "Has my order been placed?"
+        ],
+        "responses": [
+            "Yes, your order is confirmed. You will receive updates shortly."
+        ]
+    },
+    {
+        "tag": "health_benefits",
+        "patterns": [
+            "Are your dishes healthy?",
+            "Health benefits of your food?",
+            "Healthy food options?"
+        ],
+        "responses": [
+            "Our dishes are freshly prepared and nutritious, with options to suit various dietary needs."
+        ]
+    },
+    {
+        "tag": "customized_orders",
+        "patterns": [
+            "Can I customize my order?",
+            "Add extra ingredients?",
+            "Order customization options?"
+        ],
+        "responses": [
+            "Yes, you can customize your order. Let us know your preferences!"
+        ]
+    },
+    {
+        "tag": "first_order_discount",
+        "patterns": [
+            "Do you have discounts for new customers?",
+            "First order discount?",
+            "Offer for first-time users?"
+        ],
+        "responses": [
+            "Yes, first-time customers enjoy a 10% discount on their first order."
+        ]
+    },
+    {
+        "tag": "customer_support",
+        "patterns": [
+            "How can I contact support?",
+            "Need help with an issue",
+            "Customer support details"
+        ],
+        "responses": [
+            "Our support team is here to help. Reach out to us through the app or call us directly."
+        ]
+    },
+    {
+        "tag": "reheating_instructions",
+        "patterns": [
+            "How do I reheat the food?",
+            "Reheating instructions?",
+            "Best way to reheat your dishes?"
+        ],
+        "responses": [
+            "Reheating instructions are provided with your order. Follow them for the best taste!"
+        ]
+    },
+    {
+        "tag": "subscription_meals",
+        "patterns": [
+            "Do you offer meal subscriptions?",
+            "Can I subscribe to daily meals?",
+            "Subscription options available?"
+        ],
+        "responses": [
+            "Yes, we offer weekly and monthly meal subscriptions. Contact us for details."
+        ]
+    },
+    {
+        "tag": "special_events",
+        "patterns": [
+            "Do you provide food for special events?",
+            "Event catering?",
+            "Special event orders?"
+        ],
+        "responses": [
+            "Yes, we cater to special events. Let us know your requirements in advance."
+        ]
+    },
+    {
+        "tag": "contactless_delivery",
+        "patterns": [
+            "Do you offer contactless delivery?",
+            "Contactless delivery option?",
+            "Safe delivery available?"
+        ],
+        "responses": [
+            "Yes, we provide contactless delivery to ensure your safety."
+        ]
+    },
+    {
+        "tag": "kitchen_location",
+        "patterns": [
+            "Where is your kitchen located?",
+            "Kitchen address?",
+            "Cloud kitchen location?"
+        ],
+        "responses": [
+            "We operate from a central cloud kitchen and deliver directly to your location."
+        ]
+    },
+    {
+        "tag": "eco_friendly_packaging",
+        "patterns": [
+            "Do you use eco-friendly packaging?",
+            "Is your packaging sustainable?",
+            "Environment-friendly materials used?"
+        ],
+        "responses": [
+            "Yes, we use eco-friendly and sustainable packaging for all our deliveries."
+        ]
+    },
+    {
+        "tag": "favorite_dishes",
+        "patterns": [
+            "What are your favorite dishes?",
+            "Best-selling items?",
+            "Popular dishes?"
+        ],
+        "responses": [
+            "Our best-sellers are Chole Bhature, Veg Thali, and Masala Dosa."
+        ]
+    }
+]
